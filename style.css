@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(skyblue, white);
+    overflow: hidden;
+}
+
+button{
+    width: fit-content;
+    padding: 11px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background: whitesmoke;
+}
+button:hover{
+    background: rgba(67, 92, 99, 0.5); 
+}
+
+.container{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 80.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    /* border: 1px solid red; */
+    background: rgba(122, 168, 255, 0.267);
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px 0;
+}
+.message input{
+    width: 90%;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+}
+
+@media(max-width: 480px){
+    .message input{
+        width: 80%;
+    }
+}
